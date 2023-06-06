@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flight School Website</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="shortcut icon" href="./img/favicon.jpg" type="image/x-icon">
+</head>
+
+<body id="index-1">
+    <!-- Navbar -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Flight School</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="./pages/flota.html">Fleet</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./pages/nuestros-cursos.html">Courses</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./pages/quienes-somos.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./pages/requisitos.html">Requiriments</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+</header>    
+
+    <!-- Jumbotron -->
+<main>
+  <section>
+    <div class="jumbotron"> 
+      <h1 class="display-4">Welcome to Flight School</h1>
+      <p class="lead">Learn to fly with experienced instructors</p>
+    </div>
+  </section>  
+
+    <section id="courses">
+      <div class="container">
+        <h2>Courses Offered</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card course-card">
+        
+              <div class="card-body">
+                <h5 class="card-title">Airline Pilot Course</h5>
+                <p class="card-text">Obtain your private pilot license and fly solo.</p>
+                <a href="./pages/flota.html" class="btn btn-success">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card course-card">
+              <div class="card-body">
+                <h5 class="card-title">Our Programs</h5>
+                <p class="card-text">Enhance your skills with instrument flight training.</p>
+                <a href="./pages/nuestros-cursos.html" class="btn btn-success">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <h2>Contact Us</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <form>
+              <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your name">
+              </div>
+              <div class="form-group">
+                <label for="phone-number">Phone</label>
+                <input type="text" class="form-control" id="Phone" placeholder="Enter your phone number">
+              </div>
+              <div class="form-group">
+                <label for="email">Your Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email">
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" rows="5" placeholder="Enter your message"></textarea>
+              </div>
+              <button type="submit" class="btn btn-dark">Submit</button>
+            </form>
+          </div>
+          <div class="col-md-6">
+            <h5>Visit Us</h5>
+            <p>123 Main Street</p>
+            <p>City, State ZIP</p>
+            <h5>Call Us</h5>
+            <p>Phone: 123-456-7890</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.6843882683165!2d-58.645170424545746!3d-34.662672772933185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc74bc5e2b369%3A0x1ba561c6ba2ef653!2sAeropuerto%20de%20Mor%C3%B3n!5e0!3m2!1ses-419!2sar!4v1685898114508!5m2!1ses-419!2sar" width="600" height="240" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container text-center">
+      <p>&copy; 2023 Flight School. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS (optional) -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
