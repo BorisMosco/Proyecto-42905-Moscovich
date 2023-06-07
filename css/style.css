@@ -3,18 +3,10 @@
     padding-top: 60px
   }
 
-  .jumbotron {
-    background-image:url('');
-    background-size: cover;
-    color: white;
-    text-align: center;
-    padding: 100px;
-  }
-
   .course-card {
     margin-bottom: 20px;
   }
-    .jumbotron {
+    .initial-section{
       background-image:url();
       background-size: cover;
       color: white;
@@ -29,14 +21,6 @@
 
   .lead{
       color: black;
-    }
-
-    .jumbotron-2 {
-      background-image: url('');
-      background-size: cover;
-      color:black;
-      text-align: center;
-      padding: 100px;
     }
 
 .card-img-top-1{
@@ -64,4 +48,22 @@
 
 .t-1{
  text-align: center;
+}
+
+.orientation{
+  text-align:initial;
+  list-style-type: none;
+  padding: 5%;
+}
+
+.style-1{
+  font-weight: bolder;
+}
+
+.t-3{
+  text-align: center;
+}
+.t-4{
+  text-align: center;
+  padding: 5%;
 }
