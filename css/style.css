@@ -3,9 +3,9 @@
     /* padding-top: 60px  */
   /* }  */
  
-  body {
+  .body-1{
     padding-top: 60px;
-  }
+  } 
 
   .jumbotron{
     background-image: url('https://i.pinimg.com/564x/e4/72/15/e47215ba83edcc165877ae7c6b819f8c.jpg');
@@ -39,9 +39,8 @@
       /* color: black;  */
     /* }   */
 
-.card-img-top-1{
-  height: 523px;
-  width: 348px;
+.card-img-top{
+ height: 400px;
 }
 
 .index-1{
@@ -84,12 +83,11 @@
   padding: 5%;
 }
 
-.card-t-7{
-border: groove;
-width: 352px
-}
-
 .l-33{
   margin: 2%;
   margin-left: auto;
+}
+
+.card-body{
+  height: 200px;
 }
