@@ -1,8 +1,3 @@
- /* .body-1{  */
-    /* background-color: #f8f9fa;  */
-    /* padding-top: 60px  */
-  /* }  */
- 
   .body-1{
     padding-top: 60px;
   } 
@@ -17,27 +12,12 @@
     align-items: center; 
     color: #fff;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    font-family: 'Bowlby One SC';
   }
 
   .course-card {
     margin-bottom: 20px;
   }
-    /* .initial-section{ */
-      /* background-image:url();  */
-      /* background-size: cover;  */
-      /* color: white;  */
-      /* text-align: center;  */
-      /* padding: 100px;  */
-      /* background-color: #5ebfe7c9;  */
-    /* }  */
- 
-  /* .display-4{  */
-    /* color: black; */
-  /* } */
-
-  /* .lead{  */
-      /* color: black;  */
-    /* }   */
 
 .card-img-top{
  height: 400px;
@@ -59,10 +39,12 @@
 
 .Fleet{
   text-align: center;
+  font-family: 'Markazi Text'
 }
 
 .t-1{
  text-align: center;
+ font-family: 'Overlock SC'
 }
 
 .orientation{
@@ -75,8 +57,9 @@
   font-weight: bolder;
 }
 
-.t-3{
+#t-3{
   text-align: center;
+  font-family: 'Markazi Text'
 }
 .t-4{
   text-align: center;
@@ -88,6 +71,37 @@
   margin-left: auto;
 }
 
-.card-body{
-  height: 200px;
+.card-body-1{
+  height: 190px;
+}
+
+#I-27{
+  height: 400px;
+}
+
+#c-50{
+  margin: 15%;
+  margin-left: auto;
+}
+
+#c-55{
+  margin: 17%;
+  margin-left: auto;
+}
+
+#c-60{
+  margin: 15%;
+  margin-left: auto;
+}
+
+#fuente{
+  font-family: 'Markazi Text'
+}
+
+#fuente-1{
+  font-family: 'Jost', sans-serif;
+}
+
+#f-3{
+  margin-bottom: 20%;
 }
