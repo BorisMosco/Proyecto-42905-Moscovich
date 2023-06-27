@@ -1,109 +1,116 @@
-  .body-1{
-    padding-top: 60px;
-  } 
-
-  .encabezado{
-    background-image: url('https://i.pinimg.com/564x/e4/72/15/e47215ba83edcc165877ae7c6b819f8c.jpg');
-    background-position-x:center;
-    background-position-y:center;
-    background-size: cover;
-    height: 500px;
-    display: flex;
-    align-items: center; 
-    color: #fff;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
-    font-family: 'Bowlby One SC';
-  }
-
-  .course-card {
-    margin-bottom: 20px;
-  }
-
-.card-img-top{
- height: 400px;
+.encabezado {
+  background-image: url("https://i.pinimg.com/564x/e4/72/15/e47215ba83edcc165877ae7c6b819f8c.jpg");
+  background-position-x: center;
+  background-position-y: center;
+  background-size: cover;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  text-shadow: rgba(0, 0, 0, 0.6);
+  font-family: "Bowlby One SC";
 }
 
-.index-1{
+.index-1 {
   background-color: #f8f9fa;
 }
 
-.space{
-  padding: 5%;
-  text-align: center;
-}
-
-.footer-1{
-  padding: 20%;
-  text-align: center;
-}
-
-.Fleet{
-  text-align: center;
-  font-family: 'Markazi Text'
-}
-
-.t-1{
- text-align: center;
- font-family: 'Overlock SC'
-}
-
-.orientation{
-  text-align:initial;
-  list-style-type: none;
-  padding: 5%;
-}
-
-.style-1{
-  font-weight: bolder;
-}
-
-#t-3{
-  text-align: center;
-  font-family: 'Markazi Text'
-}
-.t-4{
-  text-align: center;
-  padding: 5%;
-}
-
-.l-33{
+.l-33 {
   margin: 2%;
   margin-left: auto;
 }
 
-.card-body-1{
+.body-1 {
+  padding-top: 60px;
+}
+
+.course-card {
+  margin-bottom: 20px;
+}
+
+.card-img-top {
+  height: 400px;
+}
+
+.index-1 {
+  background-color: #f8f9fa;
+}
+
+.card-body-1 {
   height: 190px;
 }
 
-#c-50{
+#c-50 {
   margin: 15%;
   margin-left: auto;
 }
 
-#c-55{
+#c-55 {
   margin: 17%;
   margin-left: auto;
 }
 
-#c-60{
+#c-60 {
   margin: 15%;
   margin-left: auto;
 }
 
-#fuente{
-  font-family: 'Markazi Text'
+.Fleet {
+  text-align: center;
+  font-family: "Markazi Text";
 }
 
-#fuente-1{
-  font-family: 'Jost', sans-serif;
+.t-1 {
+  text-align: center;
+  font-family: "Overlock SC";
 }
 
-.mapa{
+.orientation {
+  text-align: initial;
+  list-style-type: none;
+  padding: 5%;
+}
+
+#t-3 {
+  text-align: center;
+  font-family: "Markazi Text";
+}
+
+#fuente {
+  font-family: "Markazi Text";
+}
+
+#fuente-1 {
+  font-family: "Jost", sans-serif;
+}
+
+.style-1 {
+  font-weight: bolder;
+}
+
+.space {
+  padding: 5%;
+  text-align: center;
+}
+
+.footer-1 {
+  padding: 20%;
+  text-align: center;
+}
+
+.t-4 {
+  padding: 5%;
+  text-align: center;
+}
+
+.mapa {
   width: 500px;
   height: 200px;
 }
 
-.img{
-  height: 500px;
+.img {
   width: 2000px;
+  height: 500px;
 }
+
+/*# sourceMappingURL=style.css.map */

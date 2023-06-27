@@ -1,0 +1,30 @@
+@import 'colores';
+@import 'esctructura';
+@import 'tipografia';
+@mixin ancho-y-largo($width, $height){
+    width: $width;
+    height: $height;
+}
+@mixin medidas($padding,$text-aling){
+    padding: $padding;
+    text-align: $text-aling;
+}
+
+.space{
+  @include medidas(5%, center)
+}
+
+.footer-1{
+  @include medidas(20%,center)
+}
+.t-4{
+  @include medidas(5%,center)
+}
+
+.mapa{
+  @include ancho-y-largo(500px,200px)
+}
+
+.img{
+ @include ancho-y-largo(2000px, 500px)
+}
