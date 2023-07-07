@@ -75,3 +75,52 @@
     text-align: center;
     font-family: 'Markazi Text'
   }
+
+  .mapa {
+    height: 120px;
+    width: 100%;
+    border: 0;
+  }
+  
+  #card-26{
+    width: 18rem;
+    margin: auto;
+    outline-style: auto;
+  }
+  
+  .card-title{
+    padding: 1%;
+  }
+  
+  #carouselExampleDark{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 80%;
+    position: relative;
+  }
+  
+  .img-3{
+   width: 1500px;
+   height: 500px;
+  }
+  
+  .img-2{
+    width: 1200px;
+    height: 500px;
+  }
+  
+  .img-1{
+    height: 500px;
+    width: 1200px;
+  }
+  
+  .container-30{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .carousel-caption{
+    color: white;
+  }
