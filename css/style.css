@@ -42,17 +42,22 @@
 
 #c-50 {
   margin: 15%;
-  margin-left: auto;
+  display: flow-root;
 }
 
 #c-55 {
   margin: 17%;
-  margin-left: auto;
+  display:flow-root;
+}
+
+#j-27{
+  display: flow-root;
+  margin-top: -5%;
 }
 
 #c-60 {
   margin: 15%;
-  margin-left: auto;
+  display: flow-root;
 }
 
 .Fleet {
@@ -89,7 +94,7 @@
 }
 
 .card-title {
-  padding: 1%;
+  padding: 2%;
 }
 
 #carouselExampleDark {
@@ -131,6 +136,7 @@
 
 #fuente-1 {
   font-family: "Jost", sans-serif;
+  padding: 1%;
 }
 
 .style-1 {
@@ -153,7 +159,7 @@
 }
 
 .mapa {
-  width: 500px;
+  width: 100%;
   height: 200px;
 }
 
